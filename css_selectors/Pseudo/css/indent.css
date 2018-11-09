@@ -1,0 +1,41 @@
+/**
+* DON'T MODIFY THIS
+*/
+div:first-of-type{
+    margin-bottom: 1em;
+}
+div:last-of-type{
+    margin-top: 1em;
+}
+div div, div p, div span{
+    text-indent: 2em;
+}
+
+div div div{
+    text-indent:4em;
+}
+
+div div div div{
+    text-indent: 6em;
+}
+
+div p span{
+    text-indent: 4em;
+}
+
+span{
+    margin-top:1em;
+    display:block;
+}
+a{
+    text-indent: 4em;
+    display:block;
+}
+
+input,label{
+    margin-left: 4em;
+    display:block;
+}
+input[type="checkbox"]{
+    display:inline-block;
+}

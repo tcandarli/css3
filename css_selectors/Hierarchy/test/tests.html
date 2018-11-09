@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IT Club Oberland - CSS Training - Hierarchy</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="../../lib/mocha.min.css"/>
+
+    <script src="../../lib/jquery-3.3.1.min.js"></script>
+    <script src="../../lib/should.min.js"></script>
+    <script src="../../lib/mocha.min.js"></script>
+</head>
+
+<body>
+<iframe id="testDom" src="../index.html" style="visibility: hidden;height:0;width:0"></iframe>
+<div id="mocha"></div>
+
+<script>
+    mocha.setup('bdd')
+</script>
+<script src="tests.js"></script>
+<script>
+    mocha.checkLeaks();
+    mocha.run();
+</script>
+</body>
+
+</html>

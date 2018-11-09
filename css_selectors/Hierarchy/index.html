@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hierarchy Selectors</title>
+    <link rel="stylesheet" href="css/indent.css"/>
+    <link rel="stylesheet" href="css/hierarchy.css"/>
+</head>
+<body>
+<div class="firstClass">DIV CLASS FIRSTCLASS STRIKED THROUGH BLACK BACKGROUND WHITE TEXT</div>
+<div>
+    DIV
+    <p>
+        P SKYBLUE
+        <span>SPAN</span>
+    </p>
+    <p> P SKYBLUE
+        <span>SPAN
+            <span>SPAN BORDER 1PX BLACK</span>
+        </span>
+    </p>
+    <p>P SKYBLUE</p>
+</div>
+<div>
+    DIV
+    <p>P SKYBLUE</p>
+    <p id="middle">
+        P BORDER 2PX RED
+        <span>SPAN BOLD RED BACKGROUND WHITE TEXT</span>
+    </p>
+    <p>P DARKRED</p>
+</div>
+<div id="someDiv">
+    DIV SKYBLUE
+    <p>P SKYBLUE</p>
+    <span>P</span>
+    <p>
+        P DARKRED
+        <span>SPAN BLACK BACKGROUND FONT SIZE 2X WHITE TEXT</span>
+    </p>
+</div>
+<div>
+    DIV
+    <div>DIV</div>
+    <ul>UL
+        <li class="someL">LI
+            <ul>
+                UL FONT SIZE 2X
+                <li>LI FONT SIZE 2X
+                    <p>P ORANGE AND BOLD FONT SIZE 2X</p>
+                </li>
+                <li>LI FONT SIZE 2X</li>
+                <li>LI FONT SIZE 2X
+                    <ul>
+                        UL FONT SIZE 4X
+                        <li class="someL">LI RED AND ITALIC FONT SIZE 4X</li>
+                        <li>LI BLUE FONT SIZE 4X</li>
+                        <li>LI GREEN FONT SIZE 4X</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="someL">LI</li>
+        <li>LI
+            <span>SPAN ORANGE</span>
+        </li>
+    </ul>
+</div>
+<div id="last">
+    DIV
+    <p>P</p>
+    <p>P</p>
+    <p>P</p>
+    <p class="lastClass">P</p>
+    <p>P SKYBLUE</p>
+    <p>P SKYBLUE</p>
+    <p>P SKYBLUE</p>
+    <p>P SKYBLUE</p>
+</div>
+</body>
+</html>

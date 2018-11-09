@@ -1,0 +1,5 @@
+1) Study the HTML
+2) Use child selectors to define rules that style the corresponding nodes (elements) as specified in the HTML
+3) Define at least 2 custom rules with child selectors
+4) You may not modify the HTML!
+5) You may only use ID, Class and Hi-Archie selectors!
