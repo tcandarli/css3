@@ -1,0 +1,23 @@
+body {
+    padding: 30px;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+tr:nth-child(2) td:nth-child(3),
+tr:nth-child(3) td:nth-child(3),
+tr:nth-child(4) td:nth-child(3),
+tr:nth-child(3) td:nth-child(4),
+tr:nth-child(3) td:nth-child(2) {
+    background: white;
+}
