@@ -1,0 +1,96 @@
+.firstClass {
+    background-color: black;
+    color: white;
+}
+
+.firstClass+div p span span {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.firstClass+div p {
+    color: skyblue;
+}
+
+.firstClass+div p>span {
+    color: black;
+}
+
+.firstClass+div+div p {
+    color: skyblue;
+}
+
+#middle {
+    border-style: solid;
+    border-width: 2px;
+    color: red;
+}
+
+#middle span {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+#middle+p {
+    color: darkred;
+}
+
+#someDiv {
+    color: skyblue;
+}
+
+#someDiv span+p {
+    color: darkred;
+}
+
+#someDiv p>span {
+    background-color: black;
+    font-size: 2em;
+    color: white;
+}
+
+.someL div>li {
+    font-size: 2em;
+}
+
+.someL ul {
+    font-size: 2em;
+}
+
+.someL li>p {
+    color: orange;
+    font-weight: bold;
+}
+
+li .someL {
+    color: red;
+}
+
+.someL+li {
+    color: blue;
+}
+
+.someL+li+li {
+    color: green;
+}
+
+.someL+li>span {
+    color: orange;
+}
+
+.lastClass+p {
+    color: skyblue;
+}
+
+.lastClass+p+p {
+    color: skyblue;
+}
+
+.lastClass+p+p+p {
+    color: skyblue;
+}
+
+.lastClass+p+p+p+p {
+    color: skyblue;
+}

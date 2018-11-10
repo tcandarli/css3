@@ -1,0 +1,43 @@
+[class=bold] {
+    color: blue;
+    font-weight: bold;
+}
+
+[class *=bold] {
+    font-weight: bold;
+}
+
+[class ^="123"] {
+    color: red;
+}
+
+[class="orbold"] {
+    font-size: 2em;
+}
+
+[class $="123"] {
+    color: green;
+}
+
+[class="boldesty"] {
+    color: red;
+    border: 1px;
+}
+
+[class="bolderu"] {
+    color: red;
+    border: 1px;
+}
+
+[class="allaboldo"] {
+    font-size: 2em;
+}
+
+[class="boldek-boldeko"] {
+    color: orange;
+}
+
+[class="boldek moldek"] {
+    background-color: blue;
+    color: white;
+}
