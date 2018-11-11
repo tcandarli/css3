@@ -1,0 +1,67 @@
+table {
+    margin: 30px;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+}
+td {
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+table {
+    margin: 30px;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+}
+td {
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+td:empty {
+    background: lightyellow !important;
+}
+
+tr:first-of-type > td:first-of-type,
+tr:nth-of-type(2) > td:nth-child(n+14):nth-child(-n+17),
+tr:nth-of-type(3) > td:nth-child(n+15):nth-child(-n+17),
+tr:nth-of-type(4) > td:nth-child(n+16):nth-child(-n+17),
+tr:nth-of-type(5) > td:nth-child(17){
+  background: #ECFD95;
+}
+
+tr > td:first-child {
+  background: red;
+}
+
+tr > td:nth-child(2) {
+  background: moccasin;
+}
+
+tr:nth-of-type(n+4):nth-of-type(-n+5) > td:nth-child(n+3):nth-child(-n+11),
+tr:nth-of-type(6) > td:nth-child(n+4):nth-child(-n+11),
+tr:nth-of-type(7) > td:nth-child(n+4):nth-child(-n+8){
+  background: lightsalmon;
+}
+
+tr:nth-of-type(6) > td:nth-child(3),
+tr:nth-of-type(9) {
+  background: violet;
+}
+
+tr:nth-of-type(10), tr:nth-of-type(7) > td:nth-of-type(3) {
+  background: mediumorchid;
+  color: white;
+}
+
+tr:nth-of-type(7) > td:nth-child(n+9):nth-child(-n+18){
+  background: lightgrey;
+}
+
+tr:nth-of-type(n+1):nth-of-type(-n+6) > td:last-of-type {
+  background: cyan;
+}
